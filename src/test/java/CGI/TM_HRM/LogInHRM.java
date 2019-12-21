@@ -24,7 +24,7 @@ public class LogInHRM {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@id='welcome']"))).click();
 		
 		driver.findElement(By.xpath("//a[text()='Logout']")).click();
-		driver.close();
+		//driver.close();
 		
 
 	}
